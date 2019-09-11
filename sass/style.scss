@@ -10,9 +10,14 @@ $redish: #EF4658;
   align-items: center;
   justify-content: center;
 }
+
+%section-size {
+  width: 100%;
+  height: 100vh;
+}
+
 /*------------ Inheritances----------*/
 
 body{
   color: magenta;
 }
-     
