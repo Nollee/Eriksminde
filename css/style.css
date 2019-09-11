@@ -14,6 +14,10 @@ body {
   padding: 0px;
 }
 
+p{
+  font-family: 'input-serif';
+}
+
 .video-gradient {
   display: flex;
   align-items: center;
