@@ -4,4 +4,17 @@
 /*------------ Inheritances----------*/
 body {
   color: magenta;
+  height: 2000px;
+  margin: 0px;
 }
+
+/*------------Progressbar oppe i toppen----------*/
+#progress {
+      --scroll: 0%;
+      background: linear-gradient(to right,rgb(21, 109, 232) var(--scroll),transparent 0);
+      position: fixed;
+      width: 100%;
+      height: 5px;
+      top:0px;
+      z-index: 100;
+  }
