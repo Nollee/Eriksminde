@@ -1,11 +1,6 @@
 /*------------ variables -----------*/
 /*------------ variables -----------*/
 /*------------ Inheritances----------*/
-/*------------ Inheritances----------*/
-body {
-  color: magenta;
-}
-
 /*------------Progressbar oppe i toppen----------*/
 #progress {
   --scroll: 0%;
@@ -15,4 +10,14 @@ body {
   height: 5px;
   top: 0px;
   z-index: 100;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: 4px solid blue;
+  padding: 2px 20px;
 }
