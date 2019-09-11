@@ -1,6 +1,18 @@
+/*------------ variables -----------*/
+$main-color: #E4E4E4;
+$site-color: #273238;
+$redish: #EF4658;
+/*------------ variables -----------*/
+
+/*------------ Inheritances----------*/
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*------------ Inheritances----------*/
 
 body{
   color: magenta;
 }
-
-  
+     
