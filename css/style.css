@@ -12,6 +12,12 @@ video, .video-gradient, section {
   height: 100vh;
 }
 
+section {
+  background-image: url(../images/paper_seamless.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 /*------------ Inheritances----------*/
 body {
   margin: 0px;
@@ -22,7 +28,7 @@ h1 {
   color: #2b4c9b;
   font-family: vektra, sans-serif;
   font-style: normal;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 200px;
 }
 
