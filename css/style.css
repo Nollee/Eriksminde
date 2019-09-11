@@ -1,5 +1,5 @@
 /*-----------progressbar i toppen--------------*/
-#_progress {
+#progress {
   --scroll: 0%;
   background: linear-gradient(to right, #156de8 var(--scroll), transparent 0);
   position: fixed;
@@ -83,10 +83,4 @@ video {
 .box:hover{
   background-color: red;
   transition: 1s;
-}
-#brødtekst{
-  text-align: center;
-  width: 40%;
-  margin: auto;
-  margin-top: 30px;
 }
