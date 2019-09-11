@@ -9,7 +9,7 @@ document.addEventListener(
       (document.documentElement["scrollHeight"] ||
         document.body["scrollHeight"]) - document.documentElement.clientHeight;
     scrollPercent = scrollTop / scrollBottom * 100 + "%";
-    document.getElementById("progress").style.setProperty("--scroll", scrollPercent);
+    document.getElementById("_progress").style.setProperty("--scroll", scrollPercent);
   },
   { passive: true }
 );

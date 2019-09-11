@@ -39,3 +39,12 @@ h1 {
 }
 
 /*-----video til startside end-------*/
+#_progress {
+  --scroll: 0%;
+  background: linear-gradient(to right, #156de8 var(--scroll), transparent 0);
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  top: 0px;
+  z-index: 100;
+}
