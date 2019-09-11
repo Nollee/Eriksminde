@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-video, .video-gradient, section {
+video, .video-gradient, section, footer {
   width: 100%;
   height: 100vh;
 }
