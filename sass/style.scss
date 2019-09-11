@@ -12,8 +12,7 @@ $site-color: #273238;
 
 %section-size {
   width: 100%;
-  height: 100vh;
-}
+  height: 100vh;}
 
 %background {
   background-image: url(../images/paper_seamless.jpg);
@@ -53,3 +52,25 @@ section {
   @extend %section-size;
   @extend %background;
 }
+
+
+/*------------Progressbar oppe i toppen----------*/
+#progress {
+      --scroll: 0%;
+      background: linear-gradient(to right,rgb(21, 109, 232) var(--scroll),transparent 0);
+      position: fixed;
+      width: 100%;
+      height: 5px;
+      top:0px;
+      z-index: 100;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .box{
+    border: 4px solid blue;
+    padding: 2px 20px;
+  }
