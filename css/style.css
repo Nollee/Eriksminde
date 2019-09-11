@@ -31,7 +31,6 @@ section, footer {
   background-size: cover;
 }
 
-
 h1, h2  {
   color: #2b4c9b;
   font-family: vektra, sans-serif;
@@ -45,9 +44,6 @@ h1, h2  {
 h2{
   font-size: 80px;
 }
-
-
-
 /*-----video til startside----*/
 video {
   object-fit: fill;
@@ -57,10 +53,7 @@ video {
   position: absolute;
   z-index: 2;
 }
-
 /*-----video til startside end-------*/
-
-
 /*--------------footer------------*/
 .boxes{
   display: flex;
@@ -86,3 +79,4 @@ video {
   margin: auto;
   margin-top: 30px;
 }
+ 
