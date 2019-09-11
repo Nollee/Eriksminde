@@ -1,7 +1,6 @@
 /*------------ variables -----------*/
-$main-color: #E4E4E4;
+$h-color: #2b4c9b;
 $site-color: #273238;
-$redish: #EF4658;
 /*------------ variables -----------*/
 
 /*------------ Inheritances----------*/
@@ -15,9 +14,36 @@ $redish: #EF4658;
   width: 100%;
   height: 100vh;
 }
-
 /*------------ Inheritances----------*/
 
 body{
-  color: magenta;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+h1 {
+  color: $h-color;
+  font-family: vektra, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 200px;
+}
+
+/*-----video til startside----*/
+video {
+  @extend %section-size;
+}
+  
+
+.video-gradient {
+  @extend %section-size;
+  @extend %center;
+  position: absolute;
+  z-index: 2;
+}
+/*-----video til startside end-------*/
+
+section {
+  @extend %section-size;
 }

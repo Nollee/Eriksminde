@@ -1,7 +1,35 @@
 /*------------ variables -----------*/
 /*------------ variables -----------*/
 /*------------ Inheritances----------*/
+.video-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video, .video-gradient, section {
+  width: 100%;
+  height: 100vh;
+}
+
 /*------------ Inheritances----------*/
 body {
-  color: magenta;
+  margin: 0px;
+  padding: 0px;
 }
+
+h1 {
+  color: #2b4c9b;
+  font-family: vektra, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 200px;
+}
+
+/*-----video til startside----*/
+.video-gradient {
+  position: absolute;
+  z-index: 2;
+}
+
+/*-----video til startside end-------*/
