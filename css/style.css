@@ -44,7 +44,7 @@ p{
   margin-top: 4px;
 }
 
-video, .video-gradient, section, footer, .paper-tore {
+video, .video-gradient, footer, .paper-tore {
   width: 100%;
   height: 100vh;
 }
@@ -146,6 +146,7 @@ box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
   align-content: center;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
 }
   #city {
     background-image: url("../images/band.jpeg");
@@ -156,6 +157,10 @@ box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
     height: 600px;
     margin-top: 500px;
     border: 1px solid black;
+    position: sticky;
+}
+
+#city p{
 }
 
 .content {
