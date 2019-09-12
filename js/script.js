@@ -60,7 +60,7 @@ var pic = document.getElementById('bil')
 var x = 1;
 function changeImage() {
   if (x===1) {
-    pic.style.backgroundImage = 'url("../Images/coffee.png")';
+    pic.style.backgroundImage = 'url("../Images/dirt.png")';
     x=3;
 
   }
