@@ -56,17 +56,22 @@ solution: place the tag in a div and test for that div.
 
 
 //billedeskift
-var pic = document.getElementById('bil')
+var pic = document.getElementById('polaroid')
 var x = 1;
 function changeImage() {
   if (x===1) {
-    pic.style.backgroundImage = 'url("../Images/dirt.png")';
-    x=3;
+    pic.style.backgroundImage = 'url("../Images/polaroid02.png")';
+    x=2;
 
   }
-  else if(x===3) {
-    pic.style.backgroundImage = 'url("../Images/weed.png")';
-    x = 1;
+  else if(x===2) {
+    pic.style.backgroundImage = 'url("../Images/polaroid03.png")';
+    x = 3;
 
+  }
+
+  else if (x===3) {
+    pic.style.backgroundImage = 'url("../Images/polaroid.png")';
+    x=1;
   }
 }
