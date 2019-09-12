@@ -59,12 +59,12 @@ solution: place the tag in a div and test for that div.
 var pic = document.getElementById('bil')
 var x = 1;
 function changeImage() {
-  if (x=1) {
+  if (x===1) {
     pic.style.backgroundImage = 'url("../Images/coffee.png")';
     x=3;
 
   }
-  else {
+  else if(x===3) {
     pic.style.backgroundImage = 'url("../Images/weed.png")';
     x = 1;
 
