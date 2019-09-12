@@ -51,7 +51,7 @@ section, footer {
 
 h1 {
   color: white;
-} 
+}
 
 h1, h2  {
   font-family: vektra, sans-serif;
@@ -61,7 +61,7 @@ h1, h2  {
   text-align: center;
   padding: 50px;
   margin: 0px;
-}
+} 
 
 h2{
   font-size: 80px;
