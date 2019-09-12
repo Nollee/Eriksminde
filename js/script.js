@@ -15,11 +15,6 @@ document.addEventListener(
 );
 
 //play video when visible
-var videos = document.getElementsByTagName('video');
-
-function checkScroll() {
-
-  for(var i = 0; i < vidoes.length; i++) {
-
-  } 
-}
+var vid = document.getElementById("reelVideo");
+vid.autoplay = true;
+vid.load();
