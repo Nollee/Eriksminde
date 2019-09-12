@@ -38,7 +38,7 @@ window.addEventListener("scroll", function() { // detect scroll event
     if (!(mySound.curentTime > 0)) {
       mySound.play(); // play audio
     }
-  } else { 
+  } else {
     mySound.pause();
     mySound.currentTime = 0; // rewind the sound
   }
