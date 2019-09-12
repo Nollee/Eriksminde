@@ -20,6 +20,7 @@ vid.autoplay = true;
 vid.load();
 
 
+//billedeskift
 var pic = document.getElementById('bil')
 var x = 1;
 function changeImage() {

@@ -91,6 +91,19 @@ video {
 }
 /*-----video til startside end-------*/
 
+
+ #myaudio {
+   width: 100%;
+ }
+
+ #lyd{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 15%;
+ }
+
 /*--------------footer------------*/
 .boxes{
   display: flex;
