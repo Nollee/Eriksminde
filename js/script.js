@@ -61,10 +61,10 @@ var x = 1;
 function changeImage() {
   if (x===1) {
     pic.style.backgroundImage = 'url("../Images/dirt.png")';
-    x=2;
+    x=3;
 
   }
-  else if(x===2) {
+  else if(x===3) {
     pic.style.backgroundImage = 'url("../Images/weed.png")';
     x = 1;
 
