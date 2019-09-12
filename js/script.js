@@ -53,3 +53,20 @@ function elFllVsbl(el) {
 NB: the audio / video tags will allways return true,
 solution: place the tag in a div and test for that div.
 */
+
+
+//billedeskift
+var pic = document.getElementById('bil')
+var x = 1;
+function changeImage() {
+  if (x===1) {
+    pic.style.backgroundImage = 'url("../Images/coffee.png")';
+    x=3;
+
+  }
+  else if(x===3) {
+    pic.style.backgroundImage = 'url("../Images/weed.png")';
+    x = 1;
+
+  }
+}
