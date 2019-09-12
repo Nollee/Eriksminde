@@ -75,7 +75,7 @@ h2{
   font-size: 80px;
   color: green;
 }
- 
+
 #menneskene {
   transform: rotate(-10deg);
   margin-right: 500px;
@@ -112,5 +112,16 @@ video {
 }
 
 /* Skolen */
+#pic{
+  width: 100px;
+  height: 100px;
+}
 
+#bil{
+background-image: url("../Images/weed.png");
+background-position: center;
+background-size: cover;
+width: 500px;
+height: 500px;
+}
 /* Skolen End */
