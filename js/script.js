@@ -70,7 +70,7 @@ function changeImage() {
 
   }
 
-  else if (x===3) {
+  else if (x===3) { 
     pic.style.backgroundImage = 'url("../images/polaroid.png")';
     x=1;
   }
