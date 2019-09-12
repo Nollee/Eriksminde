@@ -75,7 +75,7 @@ h2{
   font-size: 80px;
   color: green;
 }
- 
+
 #menneskene {
   transform: rotate(-10deg);
   margin-right: 500px;
@@ -90,6 +90,9 @@ video {
   z-index: 2;
 }
 /*-----video til startside end-------*/
+ #lyd, #myaudio {
+   height: 500px;
+ } 
 
 /*--------------footer------------*/
 .boxes{
