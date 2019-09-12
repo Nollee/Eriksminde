@@ -41,6 +41,7 @@ p{
   background-size: cover;
   position: absolute;
   z-index: 3;
+  margin-top: 4px;
 }
 
 video, .video-gradient, section, footer, .paper-tore {
@@ -59,6 +60,7 @@ section, footer {
 
 h1 {
   color: white;
+  margin-top: 50px;
 }
 
 h1, h2  {
@@ -66,14 +68,17 @@ h1, h2  {
   font-style: normal;
   font-weight: 500;
   font-size: 200px;
-  text-align: center;
   padding: 50px;
-  margin: 0px;
 }
 
 h2{
   font-size: 80px;
   color: green;
+}
+ 
+#menneskene {
+  transform: rotate(-10deg);
+  margin-right: 500px;
 }
 /*-----video til startside----*/
 video {
@@ -104,7 +109,7 @@ video {
 .box:hover{
   background-color: red;
   transition: 1s;
-} 
+}
 
 /* Skolen */
 
