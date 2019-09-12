@@ -107,24 +107,8 @@ video {
  }
 
 /*--------------footer------------*/
-.boxes{
-  display: flex;
-  justify-content: space-around;
-  color: #2b4c9b;
-  margin-top: 100px;
 
-}
-
-.box{
-  border: 2px solid #2b4c9b;
-  padding: 2px 40px;
-  margin-bottom: 100px;
-}
-
-.box:hover{
-  background-color: red;
-  transition: 1s;
-}
+/* Footer end*/
 
 /* Skolen */
 #pic{
@@ -150,3 +134,33 @@ box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
 }
 
 /* Skolen End */
+
+/* Bonderøven start */
+.container {
+
+  width: 100%;
+  height: 50vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+  #city {
+    background-image: url("../images/band.jpeg");
+    background-size: 100vw auto;
+    background-position: 0% 0%;
+    background-repeat: repeat, no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-top: 500px;
+    border: 1px solid black;
+}
+
+.content {
+  width: 50%;
+  color: #f0f0f0;
+}
+
+    /* Bonderøven End*/

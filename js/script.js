@@ -75,3 +75,27 @@ function changeImage() {
     x=1;
   }
 }
+
+//parallax
+var px = Array.prototype.slice.call(document.querySelectorAll('.parallax'));
+window.addEventListener('scroll', function() {
+  parallax(px);
+})
+
+function parallax(targetElements) {
+  targetElements.forEach(el => {
+    if (inView(el)) {
+      var scroll = (window.pageYOffset - el.offsetTop) / 3;
+      var y = scroll > 0 ? -scroll:scroll;
+      el.style.backgroundPosition = "0% " + y + "px";
+    }
+  })
+}
+
+function inView(element) {
+  var rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 ||
+    rect.bottom <= window.innerHeight
+   );
+}
