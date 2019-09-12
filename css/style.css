@@ -79,6 +79,7 @@ h2{
 #menneskene {
   transform: rotate(-10deg);
   margin-right: 500px;
+  margin-bottom: 500px;
 }
 /*-----video til startside----*/
 video {
@@ -94,6 +95,7 @@ video {
 
  #myaudio {
    width: 100%;
+   margin-top: 500px;
  }
 
  #lyd{
@@ -132,7 +134,7 @@ video {
 
 #polaroid{
   display: flex;
-background-image: url("../Images/polaroid.png");
+background-image: url("../images/polaroid.png");
 background-position: center;
 background-size:cover;
 background-repeat: no-repeat;

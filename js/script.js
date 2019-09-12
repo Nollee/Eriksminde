@@ -60,18 +60,18 @@ var pic = document.getElementById('polaroid')
 var x = 1;
 function changeImage() {
   if (x===1) {
-    pic.style.backgroundImage = 'url("../Images/polaroid02.png")';
+    pic.style.backgroundImage = 'url("../images/polaroid02.png")';
     x=2;
 
   }
   else if(x===2) {
-    pic.style.backgroundImage = 'url("../Images/polaroid03.png")';
+    pic.style.backgroundImage = 'url("../images/polaroid03.png")';
     x = 3;
 
   }
 
   else if (x===3) {
-    pic.style.backgroundImage = 'url("../Images/polaroid.png")';
+    pic.style.backgroundImage = 'url("../images/polaroid.png")';
     x=1;
   }
 }
