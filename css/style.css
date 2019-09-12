@@ -130,11 +130,17 @@ video {
   height: 100px;
 }
 
-#bil{
-background-image: url("../Images/weed.png");
+#polaroid{
+  display: flex;
+background-image: url("../Images/polaroid.png");
 background-position: center;
-background-size: cover;
+background-size:cover;
+background-repeat: no-repeat;
 width: 500px;
-height: 500px;
+height: 570px;
+position: absolute;
+right: 50px;
+
 }
+
 /* Skolen End */
