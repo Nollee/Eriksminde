@@ -1,2 +1,0 @@
-# Eriksminde
-Webdoc til Eriksminde
